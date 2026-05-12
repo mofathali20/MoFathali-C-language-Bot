@@ -2,7 +2,7 @@ import { Telegraf, Markup } from "telegraf";
 import { logger } from "./lib/logger";
 import path from "node:path";
 import { Input } from "telegraf";
-import { db, botUsers } from "@workspace/db";
+// import { db, botUsers } from "@workspace/db";
 import { eq, count } from "drizzle-orm";
 import { quiz1, quiz2 } from "./content/quizzes";
 
